@@ -14,7 +14,6 @@ class MenuScene(Scene):
 		# Set background colour
 		self.GetSceneManager().setBackgroundColor(0.25,0.5,1.0,1)
 
-
 		self.startButton = DirectButton(text="Start",scale=0.1,command=self.HandleClick,
 								extraArgs=[1],pos=(0,0,0.3))
 
@@ -22,8 +21,6 @@ class MenuScene(Scene):
 								extraArgs=[2],pos=(0,0,0.1))
 		
 		self.menuTitle = DirectLabel(text="Angry Pacman",frameColor=(0.25,0.5,1.0,1),scale=0.25,pos=(0,0,0.5))
-
-	
 
 	def HandleClick(self,n):
 		# If the Start button is clicked

@@ -14,4 +14,3 @@ class Scene():
 
 	def GetSceneManager(self):
 		return self.sceneManager
-

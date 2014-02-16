@@ -13,4 +13,3 @@ class Main():
     sceneManager.run()
 
 app = Main()
-
